@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Omelette Recipe</title>
+    <style>
+       body{
+        background-color: bisque;
+       margin: auto;
+       padding: auto;
+       }
+
+       h3,p,h5{
+        display: inline;
+        margin: auto;
+       }
+       ul li{
+        padding: 5px;
+       }
+       .container{
+        max-height: 1800px;
+        max-width: 600px;
+        margin: 100px auto;
+        background-color: white;
+        padding: 30px;
+        border-radius: 10px;
+       }
+       .container img {
+        width: 100%; /* Makes the image responsive */
+        height: auto; /* Keeps the aspect ratio */
+        border-radius: 10px;
+        display: block; /* Removes bottom space in some browsers */
+       }
+      table{
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+      }
+
+      th,td{
+        border: 2px solid black;
+        padding: 8px;
+      }
+      thead{
+        background-color: antiquewhite;
+        text-align: left;
+      }
+      h1{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+
+      .preparation{
+        background-color: rgb(243, 230, 234);
+        padding: 20px;
+        margin: 30px 0;
+        border-radius: 5px;
+        text-transform: capitalize;
+      }
+      .recipe h1{
+          text-transform: capitalize;
+          color: chocolate;
+      }
+      .recipe li{
+       
+            padding-left: 10px; /* Space between number and content */
+            padding-bottom: 10px;
+      }
+      .recipe p{
+        padding-left: 5px;
+        padding-bottom: 5px;
+      }
+    ol li::marker {
+        color: red; /* Change the color of the list item numbers */
+        font-size: 1.2em; /* Optional: change the size of the numbers */
+        margin-left: 500px;
+    }
+    ol h5{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-transform: capitalize;
+    }
+
+   
+    </style>
+</head>
+<body>
+     <div class="container">
+        <img src="Assets/image-omelette.jpeg" class="pic" alt="Omelette Image"  >
+        <section>
+            <h1>Simple Omelette Recipe</h1>
+            <p>An easy and quick dish, perfect for any meal. this classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+        </section>
+
+        <div class="preparation">
+            <h2 style="color: darkmagenta;">preparation time</h2>
+            <ul>
+                <li><h3>Total: </h3><p>Approximately 10 minutes</p></li>
+                <li><h3>preparation: </h3><p>5 minutes</p></li>
+                <li><h3>Cooking: </h3><p>5 minutes</p></li>
+                
+
+            </ul>
+        </div>
+
+        <div class="recipe">
+            <h1>ingredients</h1>
+            <ul>
+                <li><p>2-3 large eggs</p></li>
+                <li><p>Salt, to taste</p></li>
+                <li><p>Pepper, to taste</p></li>
+                <li><p>1 tablespoon of butter or oil</p></li>
+                <li><p>Optional fillings:cheese , diced vegetables,cooked meats, herbs</p></li>
+                <li><p>Pepper, to taste</p></li>
+
+            </ul>
+        </div>
+        <hr>
+        <div class="recipe">
+            <h1>Instructions</h1>
+            <ol>
+                <li><h5>Beat the eggs: </h5><p>In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture. </p></li>
+                <li><h5>Heat the pan: </h5><p>Place a non-stick frying pan over medium heat and add butter or oil.</p></li>
+                <li><h5>Cook the omelette: </h5><p>Once the butter is meltes and bubbling,pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface. </p></li>
+                <li><h5>Add fillings (optional): </h5><p>When the eegs begin to set at the edges but are still slightly runny in the middle,sprinkle your chosen fillings over one half of the omelette.</p></li>
+                <li><h5>Fold and serve: </h5><p>As the omlette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute,then slide ot onto a plate.</p></li>
+                <li><h5>Enjoy: </h5><p>Server hot,with additional salt and pepper if needed.</p></li>
+
+            </ol>
+        </div>
+         <hr>
+        <div class="recipe">
+            <h1>nutrition</h1>
+            <p style="padding: 5px 0;">The table below shows nutritional values per serving without the additional fillings.</p>
+           <table>
+            <tbody>
+            <thead>
+              <th>Calories</th>
+              <th>Carbs</th>
+              <th>Protein</th>
+              <th>Fat</th>
+            </thead>
+            <tr>
+                <td>277kcal</td> 
+                <td>0g</td>
+                <td>20g</td>
+                <td>22g</td>
+            </tr>
+        </tbody>
+           </table>
+        </div>
+    </div>
+
+</body>
+</html>
